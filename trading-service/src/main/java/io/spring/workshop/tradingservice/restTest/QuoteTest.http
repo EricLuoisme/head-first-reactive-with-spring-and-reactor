@@ -1,0 +1,4 @@
+GET http://localhost:8080/quotes/feed
+Accept: text/event-stream
+
+###
