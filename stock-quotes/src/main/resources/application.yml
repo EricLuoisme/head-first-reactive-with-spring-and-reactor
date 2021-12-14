@@ -1,0 +1,7 @@
+
+spring:
+  application:
+    name: stock-quotes
+
+server:
+  port: 8081

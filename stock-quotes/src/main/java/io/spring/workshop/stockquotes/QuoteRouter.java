@@ -17,6 +17,9 @@ import static org.springframework.web.reactive.function.server.RequestPredicates
 @Configuration
 public class QuoteRouter {
 
+	/**
+	 * Netty的路由映射设置, 绑定get方式到localhost:8081/quotes能获取最新的随机quotes
+	 */
 	@Bean
 	public RouterFunction<ServerResponse> route(QuoteHandler quoteHandler) {
 		return RouterFunctions

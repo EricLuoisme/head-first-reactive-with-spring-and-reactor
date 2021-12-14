@@ -9,6 +9,9 @@ import org.springframework.web.reactive.function.server.ServerResponse;
 import static org.springframework.http.MediaType.APPLICATION_STREAM_JSON;
 import static org.springframework.web.reactive.function.server.ServerResponse.ok;
 
+/**
+ * 被url路径绑定的handler处理响应
+ */
 @Component
 public class QuoteHandler {
 
@@ -18,6 +21,9 @@ public class QuoteHandler {
 		this.quoteGenerator = quoteGenerator;
 	}
 
+	/**
+	 * 这里的流是会一直不停的返回
+	 */
 	public Mono<ServerResponse> streamQuotes(ServerRequest request) {
 		return ok()
 				.contentType(APPLICATION_STREAM_JSON)
