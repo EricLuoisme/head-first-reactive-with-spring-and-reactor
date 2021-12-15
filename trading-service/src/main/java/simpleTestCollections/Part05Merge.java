@@ -4,9 +4,6 @@ import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 import simpleTestCollections.extra.User;
 
-/**
- * Learn how to merge flux.
- */
 public class Part05Merge {
 
 //========================================================================================

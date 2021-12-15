@@ -8,12 +8,6 @@ import java.time.*;
 
 import reactor.core.publisher.Mono;
 
-/**
- * Learn how to create Mono instances.
- *
- * @author Sebastien Deleuze
- * @see <a href="https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html">Mono Javadoc</a>
- */
 public class Part02Mono {
 
 //========================================================================================

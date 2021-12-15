@@ -1,19 +1,10 @@
 package simpleTestCollections;
 
-
-
-// generic imports to help with simpler IDEs (ie tech.io)
 import reactor.core.Exceptions;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 import simpleTestCollections.extra.User;
 
-/**
- * Learn how to deal with errors.
- *
- * @author Sebastien Deleuze
- * @see Exceptions#propagate(Throwable)
- */
 public class Part07Errors {
 
 //========================================================================================
