@@ -2,8 +2,7 @@ package simpleTestCollections;
 
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
-
-import java.util.Locale;
+import simpleTestCollections.extra.User;
 
 /**
  * Learn how to transform values.

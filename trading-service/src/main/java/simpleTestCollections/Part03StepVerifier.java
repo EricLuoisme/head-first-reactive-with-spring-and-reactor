@@ -8,6 +8,7 @@ import java.util.function.*;
 import reactor.core.publisher.Flux;
 import reactor.test.StepVerifier;
 import org.assertj.core.api.Assertions;
+import simpleTestCollections.extra.User;
 
 /**
  * Learn how to use StepVerifier to test Mono, Flux or any other kind of Reactive Streams Publisher.

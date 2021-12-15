@@ -1,4 +1,4 @@
-package simpleTestCollections;
+package simpleTestCollections.extra;
 
 
 public class User {
